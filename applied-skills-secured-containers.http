@@ -1,0 +1,11 @@
+@applied_skills_secured_containers_HostAddress = http://localhost:5124
+
+GET {{applied_skills_secured_containers_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{applied_skills_secured_containers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
